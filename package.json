@@ -1,0 +1,14 @@
+{
+  "name": "javascript-object",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node_modules/.bin/vite",
+    "build": "node_modules/.bin/vite build",
+    "preview": "node_modules/.bin/vite preview"
+  },
+  "devDependencies": {
+    "vite": "^8.3.0"
+  }
+}
