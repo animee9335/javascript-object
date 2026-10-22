@@ -105,3 +105,16 @@ getUser("test").then(responseData => {
 console.log("다른 요청2");
 console.log("다른 요청3");
 console.log("전체 렌더링 종료.");
+
+
+// hoisting : 코드를 전체적으로 읽고 function, var를 위로 올린다. 변수는 최대한 사용 X
+// 같은 함수 이지만 const를 사용한 함수는 hoisting 되지않는다. (hoisting은 되나 변수명이 없어지기 때문)
+// a();
+//
+// function a() {
+//     console.log("호출");
+// }
+//
+// aa();
+//
+// const aa = () => { console.log("aa"); };
